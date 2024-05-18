@@ -57,5 +57,5 @@ The system uses three separate databases to efficiently manage different aspects
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/bhavani-hatchery-management-system.git
-   cd bhavani-hatchery-management-system
+   git clone https://github.com/Varshini2115/BhavaniHatchTrack.git
+   cd BhavaniHatchTrack
