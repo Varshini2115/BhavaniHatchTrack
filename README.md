@@ -59,3 +59,34 @@ The system uses three separate databases to efficiently manage different aspects
    ```bash
    git clone https://github.com/Varshini2115/BhavaniHatchTrack.git
    cd BhavaniHatchTrack
+   Set up the databases:
+
+Create three SQL databases: employee_db, finance_db, and hatchery_db.
+Import the provided SQL scripts to set up the tables for each database.
+Configure the backend:
+
+Update the database connection settings in the PHP configuration files to connect to your databases.
+Deploy the application:
+
+Host the application on a web server with PHP support.
+Usage
+Access the system:
+
+Navigate to the hosted URL of the Bhavani Hatchery Management System.
+Login:
+
+Use your credentials to log in to the system. Different user roles will have access to different functionalities.
+Manage Records:
+
+Use the interface to manage employee records, financial transactions, and hatchery operations.
+Contributing
+We welcome contributions to improve the Bhavani Hatchery Management System. To contribute:
+
+Fork the repository.
+Create a new branch.
+Make your changes.
+Submit a pull request.
+Please ensure your code follows the project's coding standards and includes appropriate tests.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
