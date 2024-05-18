@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Larval Rearing</title>
+  <style>
+    /* Reset default margin and padding */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    
+    }
+
+    /* Container styles */
+    .container {
+      width: 100%;
+      height: 100%;
+      --color: #E1E1E1;
+      background-color: #F3F3F3;
+      background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+      background-size: 55px 55px;
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 40px;
+      border-radius: 40px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically */
+      align-items: center; /* Center buttons horizontally */
+    }
+    header {
+            background-color: #3972ce;
+            color: #fff;
+            padding: 7px;
+            text-align: center;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            top: 8px; /* Adjust as needed */
+            left: 8px; /* Adjust as needed */
+            width: 50px; /* Adjust as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+    /* Heading styles */
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+    }
+
+    /* Button styles */
+    button {
+      padding: 1em 2em;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      color: #395cb5;
+      transition: all 1000ms;
+      font-size: 15px;
+      position: relative;
+      overflow: hidden;
+      outline: 2px solid #395cb5;
+      background: transparent;
+      margin: 20px 0; /* Adjust margin for spacing */
+    }
+
+    button:hover {
+      color: #ffffff;
+      transform: scale(1.1);
+      outline: 2px solid #f59815;
+      box-shadow: 4px 5px 17px -4px #f59815;
+    }
+
+    button::before {
+      content: "";
+      position: absolute;
+      left: -50px;
+      top: 0;
+      width: 0;
+      height: 100%;
+      background-color: #f59815;
+      transform: skewX(45deg);
+      z-index: -1;
+      transition: width 1000ms;
+    }
+    .icon {
+            position: absolute;
+            left: 1rem;
+            fill: #9e9ea7;
+            width: 90px;
+            height: 90px;
+           border-radius: 100px;
+        }
+    button:hover::before {
+      width: 250%;
+    }
+
+    @media (max-width: 300px) {
+      .container {
+        max-width: 80%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <br>
+  <header>
+    <img src="logo1.png" class="icon" alt="Logo">
+    <h1>ESSENTIAL PRACTICES</h1></header> 
+  <div class="container">
+   
+
+    <!-- Three buttons for navigation -->
+    <button onclick="redirectTo('http://localhost/bhavani-hatchery/Homepage/Home%20page/work_in_queue.php')">Work In Queue</button>
+    <button onclick="window.location.href='tank_preparation_information.html'">Tank Preparation Information</button>
+    <button onclick="redirectTo('http://localhost/bhavani-hatchery/Homepage/Home%20page/larval_rearing.php')">Larval Rearing</button>
+
+  </div>
+  <footer>
+    <p>&copy; 2024 Bhavani Hatchery. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function redirectTo(url) {
+      window.location.href = url;
+    }
+  </script>
+</body>
+
+</html>
